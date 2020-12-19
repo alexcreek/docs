@@ -52,7 +52,7 @@ When you want to use an {% data variables.product.prodname_oauth_app %} that int
 
 | Type of data | Description |
 | --- | --- |
-| Commit status | You can grant access for an app to report your commit status. Commit status access allows apps to determine if a build is a successful against a specific commit. Apps won't have access to your code, but they can read and write status information against a specific commit. |
+| Commit status | You can grant access for an app to report your commit status. Commit status access allows apps to determine if a build is successful against a specific commit. Apps won't have access to your code, but they can read and write status information against a specific commit. |
 | Deployments | Deployment status access allows apps to determine if a deployment is successful against a specific commit for public and private repositories. Apps won't have access to your code. |
 | Gists | [Gist](https://gist.github.com) access allows apps to read or write to both your public and secret Gists. |
 | Hooks | [Webhooks](/webhooks) access allows apps to read or write hook configurations on repositories you manage. |
